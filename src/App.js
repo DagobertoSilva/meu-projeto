@@ -1,10 +1,24 @@
 import './App.css';
 
 function App() {
+  const name = 'Dagoberto'
+
+
+
+function sum(a,b){
+  return a + b
+}
+
+const url = "https://via.placeholder.com/150"
+
+  const newname = name.toUpperCase()
   return (
+    
     <div className="App">
-      <h1>Meu Projeto</h1>
-      <p>Meu Primeiro App</p>
+      <h2>Alterando o JSX</h2>
+      <p>olá, {newname}</p>
+      <p>Soma: {sum(1,2)}</p>
+      <img src ={url} alt="minha imagem" />
     </div>
   );
 }
