@@ -1,4 +1,5 @@
 import './App.css';
+import HellWord from './components/HelloWorld';
 
 function App() {
   const name = 'Dagoberto'
@@ -19,6 +20,8 @@ const url = "https://via.placeholder.com/150"
       <p>olá, {newname}</p>
       <p>Soma: {sum(1,2)}</p>
       <img src ={url} alt="minha imagem" />
+
+    <HellWord/>
     </div>
   );
 }
